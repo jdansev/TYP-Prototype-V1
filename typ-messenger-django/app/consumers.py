@@ -26,6 +26,7 @@ def ws_add(message, room):
 
 		print(username)
 		print('authenticated')
+		print(token)
 	else:
 		print('user not authenticated')
 		return

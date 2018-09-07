@@ -848,10 +848,23 @@ class FluidMotion {
 // var my_token: string = "3be803023537776f9dbce26479dc33233144c0f6";
 
 // jamesbond007
-var my_token: string = "a4b8c8d951b24892acb3e565e27a65f76f06f5cc";
+// var my_token: string = "a4b8c8d951b24892acb3e565e27a65f76f06f5cc";
 
 // peterquill987
 // var my_token: string = "710147067e4bba79305a9770622c1c52d3c5caf5";
+
+// jeremih086
+// var my_token: string = "c666ce02bb01e5a0c4784a0dcbc6634b176e1c7f";
+
+
+// Ellen (ibiza sunset)
+// var my_token: string = "872534c6ff2ca0d21011c4078b334dd865aef0a9";
+
+// Parker (ocean)
+// var my_token: string = "60a99b28c3a15573ee3cc5b18e0536d7c817a21d";
+
+// Sue (purplish red)
+var my_token: string = "ef51f485495d77367e277a5c58b59ec4fa691dc2";
 
 
 var groupManager: GroupManager;
@@ -900,10 +913,10 @@ window.onload = function() {
         // themePalette['vivid'],
         // themePalette['ibiza sunset'],
         // themePalette['ocean'],
-        // themePalette['purplish red'],
+        themePalette['purplish red'],
 
         // themePalette['redgray'],
-        themePalette['quepal'],
+        // themePalette['quepal'],
     );
 
     fluidMotion = new FluidMotion(Direction.Reversed);
