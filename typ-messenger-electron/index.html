@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<title>Home</title>
+
+	<!-- Insert these lines above script imports  -->
+	<script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+	<script>if (window.module) module = window.module;</script>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="styles/sidemenu.css">
+	<link rel="stylesheet" href="styles/chatmain.css">
+	<link rel="stylesheet" href="styles/messagefeed.css">
+
+	<!-- Scripts -->
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="chatmain.js"></script>
+
+</head>
+
+<body>
+
+
+	<div class="menu-div">
+		<div class="group-title"><b>Chat Boxes</b></div>
+		<div class="group-container">
+
+				<div class='group' data-id='34' data-token='jau7ejfoe1uehdo'>
+					<h1 class='group-item group-name'>My Chat</h1>
+					<p class='group-item group-description'>A chat for testing purposes</p>
+				</div>
+
+		</div>
+	</div>
+
+	<div class="dim"></div>
+
+	<div class="page-container">
+
+		<div class="header-div">
+			<div class="menu-btn-div" onclick="groupUIManager.showMenu()">
+				<img class="menu-btn-light" src="images/menu-btn-light.png">
+				<img class="menu-btn-dark" src="images/menu-btn-dark.png">
+			</div>
+		</div>
+
+		<!-- <div class="status" style="border:1px solid red">Status</div> -->
+
+		<div class="message-box">
+			<div class="container"></div>
+			<div class="inner scroll-container">
+				<div class="scroll-view"></div>
+			</div>
+		</div>
+
+		<div class="user-input-div">
+			<input id="message-input" type="text" placeholder="Type a message" spellcheck="false">
+
+			<div class="send-btn-div">
+				<div class="send-btn">
+					<div class="send-inner"></div>
+				</div>
+			</div>
+
+			<!-- <div class="send-btn">
+				<img class="send-outer" src="images/send-circle.png">
+				<img class="send-inner" src="images/send-btn.png">
+			</div> -->
+		</div>
+
+	</div>
+
+	
+</body>
+</html>

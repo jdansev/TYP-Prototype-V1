@@ -1,0 +1,129 @@
+/* hide scrollbars */
+::-webkit-scrollbar { display: none; }
+
+.dim {
+    height:100%;
+    width:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    display: none;
+    z-index:1 !important;
+    background-color:black;
+    opacity: 0;
+}
+
+.menu-div {
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    z-index: 2 !important;
+    border: none;
+    background-color: white;
+    right: -400px;
+    box-sizing: border-box;
+    padding: 10px;
+    overflow-y: scroll;
+    /*border: 1px solid red;*/
+}
+
+.menu-btn-div {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 0;
+    margin: 10px;
+
+    /* border: 1px solid red; */
+}
+
+.menu-btn-div img {
+    height: 18px;
+    width: 28px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    /* border: 1px solid green; */
+}
+
+.menu-btn-dark {
+    clip: rect(0px,3px,20px,0px);
+    -webkit-transition: clip 0.4s;
+    transition: clip 0.4s;
+}
+
+.menu-btn-div:hover .menu-btn-dark {
+    clip: rect(0px,30px,20px,0px);
+    -webkit-transition: clip 0.4s; /* Safari */
+    transition: clip 0.4s;
+}
+
+
+.group-container {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    position: relative;
+    border-top: 2px solid #888;
+}
+
+.group {
+    border: 2px solid lightgray;
+    border-radius: 3px;
+    margin-top: 5px;
+    -webkit-transition: box-shadow 0.2s;
+    box-shadow: 1px 1px 3px #e3e3e3;
+    cursor: pointer;
+}
+
+.current-group {
+    border: 2px solid #2ecc71;
+}
+
+.group:hover {
+    -webkit-transition: box-shadow 0.2s;
+    box-shadow: 2px 2px 15px #b3b3b3;
+}
+
+.group:active {
+    -webkit-transition: box-shadow 0.1s;
+    box-shadow: 1px 1px 3px #e3e3e3;
+}
+
+.group-item {
+    font-family: Avenir;
+    margin: 0px;
+}
+
+.group-name {
+    font-size: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 8px;
+    margin-bottom: 0;
+    /*border: 1px solid blue;*/
+}
+
+.group-description {
+    font-size: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin: 8px;
+    margin-top: 0;
+    /*border: 1px solid green;*/
+}
+
+.group-title {
+    width: 250px;
+    font-family: Avenir;
+    font-size: 14px;
+    padding: 2px;
+}

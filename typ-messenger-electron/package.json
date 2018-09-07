@@ -1,0 +1,20 @@
+{
+  "name": "chatbox",
+  "productName": "ChatBox",
+  "version": "3.0.0",
+  "description": "An Electron Application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron"
+  ],
+  "author": "John Sevilla",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.7.10",
+    "electron-builder": "^19.49.0"
+  }
+}
