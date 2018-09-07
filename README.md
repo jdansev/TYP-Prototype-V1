@@ -1,6 +1,6 @@
 # TYP-Messenger
 
-TYP. Messenger is a sleek and modern messaging platform
+TYP. Messenger is a different kind of new, sleek and modern messaging platform.
 
 ![alt text](./demo.png)
 
