@@ -1,4 +1,4 @@
-# TYP-Messenger
+# TYP. Messenger
 
 TYP. Messenger is an ultra sleek messaging platform.
 
