@@ -17,7 +17,7 @@ virtuenenv env -p python3
 source env/bin/activate
 ```
 
-Install the dependecies listed in the requirements.txt file. Be sure to do this inside of a virtual environment if you want to keep this project's dependecies separate from your global depedencies. **To do so run this:**
+Install the dependecies listed in the requirements.txt file. Be sure to do this inside of a virtual environment if you want to keep this project's dependecies separate from your global depedencies. To do so run this:
 ```
 pip3 install -r requirements.txt
 ```
@@ -39,7 +39,9 @@ electron .
 ```
 
 **Or instead package it as a standalone electron app:**
-`electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds`
+```
+electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds
+```
 
 
 ## Groups
@@ -56,7 +58,7 @@ http://127.0.0.1:8000/groups/
 http://127.0.0.1:8000/groups/delete
 ```
 
-You can also flush django's database. **This will remove all existing users and groups:**
+You can also flush django's database. This will remove all existing users and groups:
 ```
 python3 manage.py flush
 ```
