@@ -22,13 +22,13 @@ Install the dependencies listed in the requirements.txt file. Be sure to do this
 pip3 install -r requirements.txt
 ```
 
-**Install redis server with homebrew and start it:**
+**Install redis with homebrew and start it:**
 ```
 brew install redis
 redis-server
 ```
 
-**You can now fire up the django server:**
+**Now fire up the server:**
 ```
 python3 manage.py runserver
 ```
@@ -48,12 +48,12 @@ electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=
 
 These APIs are used to manage groups without needing to go through Django's admin panel.
 
-**To list the groups:**
+**List the groups:**
 ```
 http://127.0.0.1:8000/groups/
 ```
 
-**To delete all groups:**
+**Delete all groups:**
 ```
 http://127.0.0.1:8000/groups/delete
 ```
