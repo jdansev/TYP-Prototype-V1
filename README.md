@@ -17,7 +17,7 @@ virtuenenv env -p python3
 source env/bin/activate
 ```
 
-Install the dependecies listed in the requirements.txt file. Be sure to do this inside of a virtual environment if you want to keep this project's dependecies separate from your global depedencies. To do so run this:
+Install the dependencies listed in the requirements.txt file. Be sure to do this inside of a virtual environment if you want to keep this project's dependencies separate from your global ones. To do so run this:
 ```
 pip3 install -r requirements.txt
 ```
