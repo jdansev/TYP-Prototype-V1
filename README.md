@@ -57,7 +57,7 @@ http://127.0.0.1:8000/groups/
 http://127.0.0.1:8000/groups/delete
 ```
 
-You can also flush the database. This removes all existing users and groups:
+**Remove all users and groups**
 ```
 python3 manage.py flush
 ```
