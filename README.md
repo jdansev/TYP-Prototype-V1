@@ -11,7 +11,7 @@ TYP. Messenger is an ultra sleek messaging platform.
 git clone https://github.com/jdansev/TYP-Messenger
 ```
 
-**Start a new python virtual environment and activate it:**
+**Create and activate a new python virtual environment:**
 ```
 virtuenenv env -p python3
 source env/bin/activate
@@ -33,7 +33,7 @@ redis-server
 python3 manage.py runserver
 ```
 
-**Start a TYP. messenger client:**
+**Start a TYP. messenger:**
 ```
 electron .
 ```
@@ -43,12 +43,11 @@ electron .
 electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds
 ```
 
-
-## Managing groups
+## Managing group chats
 
 These APIs are used to manage groups without needing to go through Django's admin panel.
 
-**List the groups:**
+**List all groups:**
 ```
 http://127.0.0.1:8000/groups/
 ```
@@ -58,7 +57,7 @@ http://127.0.0.1:8000/groups/
 http://127.0.0.1:8000/groups/delete
 ```
 
-You can also flush django's database. This will remove all existing users and groups:
+You can also flush the database. This removes all existing users and groups:
 ```
 python3 manage.py flush
 ```
