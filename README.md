@@ -44,7 +44,7 @@ electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=
 ```
 
 
-## Groups
+## Managing groups
 
 These APIs are used to manage groups without needing to go through Django's admin panel.
 
