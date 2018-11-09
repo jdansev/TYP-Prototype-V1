@@ -1,0 +1,221 @@
+@font-face {
+    font-family: "League Gothic";
+    src: url("../fonts/LeagueGothic-Regular.otf");
+}
+
+@font-face {
+    font-family: 'Work Sans';
+    src: url("../fonts/WorkSans-Regular.ttf");
+}
+
+.title {
+    font-size: 28px;
+    letter-spacing: 0.8px;
+    color: #555;
+    height: 35px;
+    width: 120px;
+    line-height: 35px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+#message-input {
+    outline: none;
+    caret-color: #1abc9c;
+    box-sizing: border-box;
+    flex-grow: 1;
+    border: none;
+    padding-right: 8px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 14px;
+    /* border: 1px solid gray; */
+
+    background: transparent;
+}
+
+.page-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    /* border: 5px solid green; */
+}
+
+html, body {
+    margin: 0;
+    /* background-color: white; */
+    overflow: hidden;
+}
+
+.header-div {
+    -webkit-app-region: drag;
+    width: 100%;
+    height: 50px;
+    font-family: Arial;
+    text-align: center;
+    border-bottom: 1px solid #e3e3e3;
+    box-shadow: 0px 0px 8px lightgray;
+    color: gray;
+
+    background-color: white;
+
+    /* background: rgba(255, 255, 255, 0.95); */
+    
+}
+
+.message-box {
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    position: relative;
+    flex: 1;
+
+    /* background: rgba(220, 220, 220, 0.90); */
+    background: white;
+    /* border: 1px solid red; */
+}
+
+.user-input-div {
+    padding: 12px 12px 12px 20px;
+    display: flex;
+    border-top: 1px solid #e3e3e3;
+
+    background-color: white;
+    /* background: rgba(255, 255, 255, 0.92); */
+    /* border: 1px solid red; */
+}
+
+.send-btn-div {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    /* border: 1px solid green; */
+
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
+
+.send-btn {
+    width: 100%;
+    height: 100%;
+    /* background-color: transparent; */
+    /* border: none; */
+    position: relative;
+    /* box-sizing: border-box; */
+
+    /* border: 1px solid green; */
+
+    /* height: 60px; */
+    /* width: 60px; */
+    
+
+    
+
+    /* border: 1px solid red; */
+}
+
+/* .send-btn img {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */
+
+.send-inner {
+
+    width: 100%;
+    height: 100%;
+
+    background-color: red;
+    -webkit-mask: url('../images/send-btn.svg');
+    mask: url('../images/send-btn.svg');
+
+    -webkit-mask-size: 100%;
+
+    transform: rotate(0deg);
+    -webkit-transition: transform 0.2s;
+
+    /* border-radius: 50%; */
+}
+
+.ready {
+    transform: rotate(-90deg);
+    -webkit-transition: transform 0.2s;
+    cursor: pointer;
+}
+
+input::-webkit-input-placeholder { color: #e3e3e3 !important; font-family: Avenir; font-size: 16px; letter-spacing: 0.6px; }
+input:-moz-placeholder { color: #e3e3e3 !important; font-family: Avenir; font-size: 16px; letter-spacing: 0.6px;}
+input::-moz-placeholder { color: #e3e3e3 !important; font-family: Avenir; font-size: 16px; letter-spacing: 0.6px;}
+input:-ms-input-placeholder { color: #e3e3e3 !important; font-family: Avenir; font-size: 16px; letter-spacing: 0.6px;}
+
+
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    padding-top: 20px;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+.scroll-container {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: relative;
+    /* border: 1px solid blue; */
+}
+
+.scroll-view {
+    width: 100%;
+    z-index: 1;
+
+    /* border: 1px solid #000; */
+}
+
+.message-container {
+    width: 100%;
+    /*border: 1px solid blue;*/
+}
+.to {
+    text-align: right;
+}
+.from {
+    text-align: left;
+}
+
+.user-tag {
+    color: #8a8a8a;
+    padding: 10px 12px 4px 12px;
+    font-size: 11px;
+    font-family: "Helvetica Neue";
+}
+
+.message {
+    color: white;
+    text-align: left;
+    margin: 2px 10px 2px 10px;
+    padding: 5px 8px 5px 8px;
+    border-radius: 0.2em;
+    display: inline-block;
+    max-width: 60%;
+    overflow-wrap: break-word;
+    background-color: lightgray;
+    font-family: Arial;
+    font-size: 14px;
+}
