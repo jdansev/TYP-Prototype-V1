@@ -1,6 +1,7 @@
-# TYP. Messenger
+# TYP. Messenger (Prototype)
 
 TYP. Messenger is an ultra sleek messaging platform.
+Note: The official and updated repository is here: https://github.com/jdansev/TYP.
 
 ![alt text](./demo.png)
 
