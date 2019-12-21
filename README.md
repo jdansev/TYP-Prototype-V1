@@ -1,7 +1,6 @@
 # TYP. Messenger (Concept)
 
-TYP. Messenger is an ultra sleek messaging platform.
-Note: The official and updated repository is here: [TYP.](https://github.com/jdansev/TYP.) 
+TYP. Messenger is an ultra sleek messaging platform. This version uses Django as the backend to handle websocket and database operations. Note the official and updated repository is here: [TYP.](https://github.com/jdansev/TYP.). And the server [TYP-RESTful-Service](https://github.com/jdansev/TYP-RESTful-Service) has been rebuilt with a Go backend.
 
 ![alt text](./demo.png)
 
