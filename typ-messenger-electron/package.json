@@ -14,7 +14,7 @@
   "author": "John Sevilla",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^1.7.10",
+    "electron": "^9.1.0",
     "electron-builder": "^19.49.0"
   }
 }
